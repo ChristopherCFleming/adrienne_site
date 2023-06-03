@@ -181,7 +181,7 @@ input, select, textarea {
 		line-height: 1.75em;
 	}
 
-	
+
 
 		@media screen and (max-width: 736px) {
 
@@ -4006,4 +4006,12 @@ input, select, textarea {
 
 .extra-large {
 	font-size: 30px;
+}
+
+#email-form {
+	scroll-margin-top: 60px;
+}
+
+html {
+	scroll-behavior: smooth
 }
