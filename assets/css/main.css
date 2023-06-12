@@ -4032,3 +4032,7 @@ html {
 .floatingDonateButton:active {
 	background-color: #6CADE5;
 }
+
+#icons {
+	transform: rotate(0deg);
+}
