@@ -3462,11 +3462,13 @@ input, select, textarea {
 			-webkit-transition: opacity 0.2s ease;
 			-ms-transition: opacity 0.2s ease;
 			transition: opacity 0.2s ease;
-			height: inherit;
+			height: 2em;
 			left: 1.25em;
-			line-height: inherit;
+			line-height: 2em;
 			position: absolute;
-			top: 0;
+			top: 20%;
+			text-align: center;
+			width: 10em;
 		}
 
 			#header h1 a {
@@ -4014,4 +4016,19 @@ input, select, textarea {
 
 html {
 	scroll-behavior: smooth
+}
+
+.floatingDonateButton {
+	background-color: #ede733;
+	color: black;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.floatingDonateButton:hover {
+	background-color: #7bafdc;
+}
+
+.floatingDonateButton:active {
+	background-color: #6CADE5;
 }
