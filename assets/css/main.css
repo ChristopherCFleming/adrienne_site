@@ -4073,7 +4073,7 @@ html {
 
 .truncate {
 	position: relative;
-	line-height: 1em;
+	line-height: 1.4em;
 	max-height: 3.6em;
 	text-align: left;
 	overflow: hidden;
