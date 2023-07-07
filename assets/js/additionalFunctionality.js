@@ -7,10 +7,10 @@ readMoreElements.forEach(function(element) {
     if (paragraph.classList.contains('expanded')) {
       paragraph.style.maxHeight = 'none';
       paragraph.style.transition = 'max-height 2s ease'
-      this.textContent = '-';
+      this.textContent = 'Read Less';
     } else {
       paragraph.style.maxHeight = '4em'; // Adjust this value to display the desired number of lines
-      this.textContent = '+';
+      this.textContent = 'Read More';
     }
   });
 });
