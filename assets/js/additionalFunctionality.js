@@ -9,7 +9,7 @@ readMoreElements.forEach(function(element) {
       paragraph.style.transition = 'max-height 2s ease'
       this.textContent = '-';
     } else {
-      paragraph.style.maxHeight = '3.6em'; // Adjust this value to display the desired number of lines
+      paragraph.style.maxHeight = '4em'; // Adjust this value to display the desired number of lines
       this.textContent = '+';
     }
   });
