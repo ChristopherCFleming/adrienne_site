@@ -4076,3 +4076,7 @@ html {
 .linkedArticle {
 	color:#ede733;
 }
+
+#dennis {
+	max-height: 200px;
+}
