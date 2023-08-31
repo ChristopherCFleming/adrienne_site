@@ -4063,7 +4063,7 @@ html {
 .expanded {
 	max-height: none;
 	background: none;
-	color: white;
+	/* color: white; */
 }
 
 .read-more {
@@ -4073,10 +4073,15 @@ html {
 	/* font-size: 30pt; */
 }
 
-.linkedArticle {
+#linkedArticle {
 	color:#ede733;
 }
 
-#dennis {
-	max-height: 250px;
+
+#darkerText {
+	color: #2b343d
+}
+
+.communityHeader {
+	text-align: center;
 }
