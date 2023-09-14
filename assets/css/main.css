@@ -4037,7 +4037,7 @@ html {
 	transform: rotate(0deg);
 } 
 
-.truncate {
+/* .truncate {
 	position: relative;
 	line-height: 1.4em;
 	max-height: 4em;
@@ -4063,14 +4063,27 @@ html {
 .expanded {
 	max-height: none;
 	background: none;
-	/* color: white; */
+	color: white;
+} */
+
+
+.accordion ul {
+    display: none;
 }
+
 
 .read-more {
 	color: #6CADE5;
 	cursor: pointer;
 	margin-top: 10px;
-	/* font-size: 30pt; */
+	font-size: 30pt;
+}
+
+.expand {
+	color: #6CADE5;
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 30pt;
 }
 
 #linkedArticle {
