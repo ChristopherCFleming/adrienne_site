@@ -1,26 +1,24 @@
 
 // The functions below are for the new functionaity on the Policy page:
 
-document.addEventListener("DOMContentLoaded", function() {
-    const accordions = document.querySelectorAll('.accordion');
+const accordions = document.querySelectorAll('.accordion');
 
-    function toggleAccordion() {
-        const ul = this.querySelector('ul');
-        const expand = this.querySelector('.expand');
+function toggleAccordion() {
+    const ul = this.querySelector('ul');
+    const expand = this.querySelector('.expand');
 
-        if (ul.style.display === 'none' || ul.style.display === '') {
-            ul.style.display = 'block';
-            expand.textContent = 'Read Less';
-        } else {
-            ul.style.display = 'none';
-            expand.textContent = 'Read More';
-        }
+    if (ul.style.display === 'none' || ul.style.display === '') {
+        ul.style.display = 'block';
+        expand.textContent = 'Read Less';
+    } else {
+        ul.style.display = 'none';
+        expand.textContent = 'Read More';
     }
+}
 
-    accordions.forEach(accordion => {
-        const expand = accordion.querySelector('.expand');
-        expand.addEventListener('click', toggleAccordion.bind(accordion));
-    });
+accordions.forEach(accordion => {
+    const expand = accordion.querySelector('.expand');
+    expand.addEventListener('click', toggleAccordion.bind(accordion));
 });
 
 // The functions below are for the old hidden functionality on the main page
