@@ -72,6 +72,11 @@ input, select, textarea {
 	appearance: none;
 }
 
+#highlight {
+	color: #ede733;
+	font-style: oblique;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -4068,11 +4073,3 @@ html {
 .communityHeader {
 	text-align: center;
 }
-
-
-
-#highlight {
-	color: #ede733;
-	font-style: oblique;
-}
-
