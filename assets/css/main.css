@@ -4065,11 +4065,11 @@ html {
 	color: #2b343d
 }
 
-.communityHeader {
-	text-align: center;
-}
-
 .highlight {
 	color: #ede733;
 	font-style: oblique;
+}
+
+.communityHeader {
+	text-align: center;
 }
