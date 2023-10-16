@@ -4060,7 +4060,6 @@ html {
 	color:#ede733;
 }
 
-
 #darkerText {
 	color: #2b343d
 }
@@ -4072,4 +4071,17 @@ html {
 
 .communityHeader {
 	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.readMore {
+	color: #6CADE5;
+	cursor: pointer;	
+}
+
+.readMore:hover {
+	color: #5080ab;
 }
