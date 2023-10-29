@@ -6,7 +6,7 @@ function toggleVisibility(button) {
     
     if (content.classList.contains('hidden')) {
         content.classList.remove('hidden');
-        button.textContent = 'Less';
+        button.textContent = 'Read Less';
     } else {
         content.classList.add('hidden');
         button.textContent = 'Read More';

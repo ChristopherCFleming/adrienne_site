@@ -4078,8 +4078,13 @@ html {
 }
 
 .readMore {
-	color: #6CADE5;
+	color: #f7f9fb;
 	cursor: pointer;	
+	background: #6CADE5;
+	border-radius: 20px;
+	max-width: fit-content;
+	padding: 5px;
+	
 }
 
 .readMore:hover {
