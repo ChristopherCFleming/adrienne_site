@@ -4097,7 +4097,7 @@ html {
 	/* Hidden by default */
 	position: fixed;
 	/* Stay in place */
-	z-index: 1;
+	z-index: 2;
 	/* Sit on top */
 	left: 0;
 	top: 0;
@@ -4113,18 +4113,16 @@ html {
 
 /* Modal Content */
 .modal-content {
-	background-color: #fefefe;
+	background-color: #6CADE5;
 	margin: 5% auto;
 	/* 5% from the top and centered */
 	padding: 20px;
-	border: 1px solid #888;
+	border: 3px solid #000000;
 	width: 90%;
 	/* Responsive width */
 	max-width: 600px;
 	/* Maximum width */
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	animation: fadeIn 0.5s;
-	/* Adding a fade-in effect */
 }
 
 /* Add Animation */
@@ -4140,7 +4138,7 @@ html {
 
 /* The Close Button */
 .close {
-	color: #aaaaaa;
+	color: #464545;
 	float: right;
 	font-size: 25px;
 	/* Adjust size as needed */
